@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- inser page icon -->
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" type="x-icon" href="img/tinsaex.jpg">
+    <title>Sor Petroleum</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo"> Sor<span>Petroleum</span> </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Testimonial</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+        <section class="contact section" id="contact">
+            <!-- <h3 class="section__subtitle">Get In<span>Touch</span></h3> -->
+            <h2 class="section__title">Login</h2>
+            <div class="contact__container container grid">
+              <form action="login.php" class="contact__form" id="contact-form" method="post">
+                <div class="contact__group">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="Enter your name"
+                    class="contact__input"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Enter your Email"
+                    class="contact__input"
+                  />
+                </div>
+                <input
+                  name="password"
+                  id="password"
+                  required
+                  placeholder="Enter your password"
+                  class="contact__input"
+                  type="password"
+                ></input>
+                <p class="contact__message" id="contact__message"></p>
+                <button type="Submit" class="button contact__button">
+                  Login
+                </button>
+              </form>
+            </div>
+          </section>
+          <div style="margin-bottom: 150px;"></div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Sor <span>Petroleum</span></h1>
+            <h2 class="footer__education">Petroleum Dealership</h2>
+          </div>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/tenssd41?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://t.me/Tinsdsae_Abreham" target="_blank" class="footer__social-link">
+              <i class="ri-telegram-line"></i>
+            </a>
+            <a href="#" target="_blank" class="footer__social-link">
+              <i class="ri-github-line"></i
+            ></a>
+          </div>
+          <span class="footer__copy"
+            >&#169; Copyright GroupX 2024. All right reserved</span
+          >
+        </div>
+      </footer>
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/scrollreveal.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+  </html>
